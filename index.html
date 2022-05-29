@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Technical Documentation</title>
+  </head>
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <nav id="navbar">
+      <header>Markdown Syntax</header>
+      <a href="#introduction" class="nav-link"> Introduction </a>
+        <a href="#headings" class="nav-link"> Headings </a>
+        <a href="#paragraphs" class="nav-link"> Paragraphs </a>
+        <a href="#bold" class="nav-link"> Bold </a>
+        <a href="#italic" class="nav-link"> Italic </a>
+       <a href="#blockquotes" class="nav-link"> Blockquotes </a>
+        <a href="#ordered_lists" class="nav-link"> Ordered Lists </a>
+        <a href="#unordered_lists" class="nav-link"> Unordered Lists </a>
+        <a href="#code" class="nav-link"> Code </a>
+        <a href="#code_blocks" class="nav-link"> Code Blocks </a>
+        <a href="#horizontal_rule" class="nav-link"> Horizontal Rule </a>
+        <a href="#links" class="nav-link"> Links </a>
+        <a href="#images" class="nav-link"> Images </a>
+        <a href="#reference" class="nav-link"> Reference </a>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="introduction">
+        <header>Introduction</header>
+
+        <p>
+          Markdown is a lightweight markup language that was created by
+          <b>John Gurber</b> and <b>Aaron Swartz</b> in 2004. The reason to
+          create such a markup language was to make it easier for humans to read
+          it in its source code form. Markdown is widely used today for
+          documentation, blogging, online forums, readme files and many other
+          purposes.
+        </p>
+
+        <p>
+          Other markup languages like HTML, XML have a multitude of tags for
+          formatting text which are easy for a computer to understand, but that
+          is not the case for human readers as it is difficult to understand how
+          the text will appear after the computer renders it, so these languages
+          are not very user-friendly and require beforehand experience.
+        </p>
+
+        <p>
+          On the other hand, markdown makes formatting text for web pages easier
+          as its tags are simpler than that of HTML and they get converted to
+          HTML automatically so there is no need to know html to write for web
+          pages. It doesn't cover all html tags but the most common formatting
+          options.
+        </p>
+      </section>
+     
+      <section class="main-section" id="headings"> 
+    
+        <header> Headings </header>
+          
+          <p> To create a heading use the <b>#</b> sign before a word or phrase. There are six heading levels, so use the corresponing number of <b>#</b> signs to create different heading levels. 
+            
+            <br>
+            <br>
+       
+            <b> Syntax: </b> 
+          <pre> 
+           <code>  
+           # Level 1
+           
+           ## Level 2 
+            </code> 
+            </pre>
+             </p>
+      
+      <p> <b> Points to remember: </b>
+        
+        <ul>
+          <li> Always put space between the <b>#</b> sign and the heading for compatibility. </li>
+          <li> Always leave blank lines before and after the heading.
+       </ul>
+      
+     </section>
+
+     <section class="main-section" id="paragraphs"> 
+    
+        <header> Paragraphs </header>
+        
+        <p> Use a blank line to separate one or more lines of text, to create paragraphs.
+          
+          <br>
+          <br>
+          
+          <b> Syntax: </b> 
+          <pre> 
+           <code>  
+           I really like markdown.
+           
+           I think i will use it to format all of my documents from now on.
+            </code> 
+            </pre>    
+        </p>
+            
+            <p> <b> Points to remember: </b>
+              
+              <ul>
+                <li> Don't indent paragraphs with space or tabs unless they are in a list.</li>
+            </p>
+        
+      </section>
+      
+      <section class="main-section" id="bold"> 
+    
+        <header> Bold </header>
+        
+        <p> To make the text bold add two asterisks or underscores on either side of the word or phrase and to make a word bold in the middle of a sentence for emphasis, add two asterisks on either side of the word without spaces around the letters.
+          
+          <br>
+          <br>
+          
+          <b> Syntax: </b> 
+          <pre> 
+           <code>  
+           I just love **bold text**.
+           
+           I just love __bold text__.
+           
+           Love **is** bold.
+            </code> 
+            </pre>   
+          
+        </p>
+          
+          <p> <b> Points to remember: </b>
+            
+            <ul>
+              <li> For compatibility, always use asterisks to make the word in the middle of a sentence bold. </li>
+              <li> This applies for italic as well as bold and italic. </li>
+          </ul>
+        
+      </section>
+
+      <section class="main-section" id="italic"> 
+    
+        <header> Italic </header>
+        
+        <p> To Italicize text add one asterisk or underscore on either side of the word or phrase and to italicize a word in the middle of a sentence use one asterisk on either side of the word without spaces around the letters. 
+          
+          <br>
+          <br>
+          
+          <b> Syntax: </b> 
+          <pre> 
+           <code>  
+           Italicized text is the *cat's meow*.
+           
+           Italicized text is the _cat's meow_.
+           
+           A *cat* meows.
+            </code> 
+            </pre>   
+         
+        </p>
+        
+      </section>
+ <section class="main-section" id="blockquotes"> 
+    
+        <header> Blockquotes </header>
+        
+        <p> Add a <b>></b> sign before a paragraph, to create a blockquote.
+          
+          <br>
+          <br>
+          
+          <b> Syntax: </b> 
+          <pre> 
+           <code>  
+           > Dorothy followed her through many of the beautiful rooms in her castle.
+            </code> 
+            </pre>  
+          
+        </p>
+    
+        <p> <b> Points to remember: </b>
+        <ul>
+          <li> For compatibility, put blank lines before and after blockquotes. </li>
+       </ul>
+       </p>
+        
+      </section>
+
+      <section class="main-section" id="ordered_lists"> 
+    
+        <header> Ordered Lists </header>
+        
+        <p>To create an ordered list, add the points with numbers followed by periods. The numbers don’t have to be in numerical order, but the list should always start with the number one.
+          
+          <br>
+          <br>
+          
+          <b> Syntax: </b> 
+          <pre> 
+           <code>  
+           1. First item
+           2. Second item
+           3. Third item
+           4. Fourth item
+           
+           1. First item
+           1. Second item
+           1. Third item
+           1. Fourth item
+            </code> 
+            </pre>  
+          
+        </p>
+        
+      </section>
+
+      <section class="main-section" id="unordered_lists"> 
+    
+        <header> Unordered Lists </header>
+        
+        <p> To create unordered lists use dashes, asterisks or plus signs before the list items. 
+          
+          <br>
+          <br>
+          
+          <b> Syntax: </b> 
+          <pre> 
+           <code>  
+           - First item
+           - Second item
+           - Third item
+           - Fourth item
+           
+           + First item
+           + Second item
+           + Third item
+           + Fourth item
+            </code> 
+            </pre>  
+          
+        </p>
+    
+        <p> <b> Points to remember: </b>
+        <ul>
+        <li> For compatibility, don't mix and match delimiters in the same list. </li>
+        </ul>
+        </p>
+        
+      </section>
+      
+      <section class="main-section" id="code"> 
+        
+        <header> Code </header>
+        
+        <p> To denote a word or phrase as code, enclose it in backticks.
+          
+          <br>
+          <br>
+          
+          <b> Syntax: </b> 
+          <pre> 
+           <code>  
+           At the command prompt type `nano`.
+            </code> 
+            </pre>  
+          
+        </p>
+        
+      </section>
+
+      <section class="main-section" id="code_blocks"> 
+    
+        <header> Code Blocks </header>
+        
+        <p> To create code blocks, indent every line of the block by atleast four spaces or one tab.
+          
+          <br>
+          <br>
+          
+          <b> Syntax: </b> 
+          <pre> 
+           <code>  
+                html
+                      head
+                    
+                      head
+                html
+            </code> 
+            </pre>  
+        </p>
+        
+      </section>
+      
+      
+      <section class="main-section" id="horizontal_rule"> 
+        
+        <header> Horizontal Rule </header>
+        
+        <p> Use three or more asterisks, dashes or underscores on a line by themselves.
+          
+          <br>
+          <br>
+          
+          <b> Syntax: </b> 
+          <pre> 
+           <code>  
+           ***
+           
+           ---
+           
+           ___
+            </code> 
+            </pre>  
+          
+        </p>
+    
+    <p> <b> Points to remember: </b>
+      <ul>
+        <li> For compatibility, put blank lines before and after horizontal rules. </li>
+        <ul>
+    </p>
+        
+      </section>
+      
+      
+      <section class="main-section" id="links"> 
+        
+        <header> Links </header>
+        
+        <p> To create a link, enclose the link text in square brackets and then immediately follow it with the URL in parentheses.
+          
+         <br>
+          <br>
+          
+          <b> Syntax: </b> 
+          <pre> 
+           <code>  
+           My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
+            </code> 
+            </pre>   
+         
+        </p>
+        
+      </section>
+      
+      
+      <section class="main-section" id="images"> 
+        
+        <header> Images </header>
+        
+        <p> To add an image, add an exclamation mark, followed by alt text in square brackets, followed by the path or URL of the image in parntheses. You can also add a title after the URL within double quotes.
+          
+          <br>
+          <br>
+          
+          <b> Syntax: </b> 
+          <pre> 
+           <code>  
+          ![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg)
+          </code>
+            </pre>   
+          
+        </p>
+        
+      </section>
+    
+    <section class="main-section" id="reference">
+      
+      <header> Reference </header>
+      
+      <p> All the syntax in this document has been taken from <a href="https://www.amazon.in/Markdown-Guide-Matt-Cone-ebook/dp/B07G7JB641" id="book-link" target="_blank"> The Markdown Guide </a> by Matt Cone.
+      </p>
+      
+    </section>
+    </main>
+    </body>
+  </html>
