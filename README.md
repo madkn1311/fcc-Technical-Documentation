@@ -2,4 +2,4 @@
 
 Technical document for basic markdown syntax.
 
-You can view the project [here](https://codepen.io/madkn1311/full/MWpdZqZ).
+You can view the project [here](https://madkn1311.github.io/fcc-Technical-Documentation/).
